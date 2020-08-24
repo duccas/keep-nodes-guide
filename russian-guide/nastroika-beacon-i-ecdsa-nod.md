@@ -24,6 +24,19 @@ sudo apt update
 sudo apt install git
 ```
 
+Установим Докер:
+
+```text
+sudo apt install docker.io curl -y
+```
+
+Активируем Докер:
+
+```text
+sudo systemctl start docker
+sudo systemctl enable docker
+```
+
 ### Настройка Фаервола
 
 Открываем порты 22, 3919 и 3920 и активируем Firewall:

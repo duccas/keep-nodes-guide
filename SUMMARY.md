@@ -13,7 +13,7 @@
 * [Установка Metamask](russian-guide/ustanovka-metamask.md)
 * [Получение Гранта KEEP и тестовых ETH](russian-guide/poluchenie-granta-keep.md)
 * [Делегирование KEEP](russian-guide/delegirovanie-keep.md)
-* [Создание INFURA аккаунта](russian-guide/sozdanie-infura-akkaunta.md)
+* [Создание аккаунта INFURA](russian-guide/sozdanie-infura-akkaunta.md)
 * [Настройка Beacon и ECDSA нод](russian-guide/nastroika-beacon-i-ecdsa-nod.md)
 
 ## English Guide
