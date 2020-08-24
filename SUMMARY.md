@@ -8,6 +8,8 @@
 
 ## Russian Guide
 
+* [Создание виртуального сервера](russian-guide/sozdanie-virtualnogo-servera.md)
+* [Создание ETH кошелька](russian-guide/sozdanie-eth-koshelka.md)
 * [Получение Гранта KEEP](russian-guide/poluchenie-granta-keep.md)
 
 ## English Guide
