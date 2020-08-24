@@ -6,7 +6,7 @@ description: >-
 
 # Technical Requirements
 
-
+### Recommended characteristics and programs for connecting to the VPS server
 
 * Ubuntu 18.04 LTS or 20.04
 * 2 CPU, 4 Gb RAM, 10 GB HDD
