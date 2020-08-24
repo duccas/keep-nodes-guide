@@ -1,5 +1,16 @@
 # Table of contents
 
-* [RU Guide](README.md)
-* [EN Guide](en-guide.md)
+* [Welcome](README.md)
+
+## Getting Srarted
+
+* [Technical Requirements](getting-srarted/technical-requirements.md)
+
+## Russian Guide
+
+* [Получение Гранта KEEP](russian-guide/poluchenie-granta-keep.md)
+
+## English Guide
+
+* [Obtaining a KEEP Grant](english-guide/obtaining-a-keep-grant.md)
 

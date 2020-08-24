@@ -1,4 +1,4 @@
-# RU Guide
+# Welcome
 
 ## Getting Super Powers
 
