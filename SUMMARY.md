@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [RU Guide](README.md)
+* [EN Guide](en-guide.md)
 
