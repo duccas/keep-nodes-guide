@@ -24,7 +24,23 @@
 
 ### Авторизация контрактов
 
+Теперь нужно авторизовать контракты в дашборде. 
 
+1. Переходим по меню в  Applications -&gt; Random Beacon \([https://dashboard.test.keep.network/applications/random-beacon](https://dashboard.test.keep.network/applications/random-beacon)\) и авторизуем контракт Keep Random Beacon Operator Contract нажатием на кнопку AUTHORIZE и подтверждаем транзакцию в Metamask. 
 
+![](../.gitbook/assets/image%20%2812%29.png)
 
+   2. Далее переходим по меню в  Applications -&gt; tBTC \([https://dashboard.test.keep.network/applications/tbtc](https://dashboard.test.keep.network/applications/tbtc)\) и авторизуем контракты BondedECDSAKeepFactory и TBTCSystem.
+
+![](../.gitbook/assets/image%20%2811%29.png)
+
+   3. Теперь нам нужно добавить тестовый эфир полученный ранее с помощью крана ETH. Жмем ниже кнопку "ADD ETH".
+
+![](../.gitbook/assets/image%20%2814%29.png)
+
+   4. В поле ввода пишем сколько эфира нужно добавить. Минимум 0.5 ETH и жмем кнопку "ADD ETH". Далее подтверждаем транзакцию.
+
+![](../.gitbook/assets/image%20%289%29.png)
+
+   5. Готово.
 
