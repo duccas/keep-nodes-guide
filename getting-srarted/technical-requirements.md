@@ -11,7 +11,7 @@ description: >-
 * Ubuntu 18.04 LTS or 20.04
 * 2 CPU, 4 Gb RAM, 10 GB HDD
 * Use SSH Client, \(iTerm in MacOS or MobaXterm, PuTTY for Windows or others\)
-* Google Chrome or Brave browsers with MetaMask extension installed
+* Google Chrome or Brave browser with MetaMask extension installed
 
 iTerm - [https://iterm2.com/downloads/stable/latest](https://iterm2.com/downloads/stable/latest)
 
