@@ -1,6 +1,6 @@
 ---
 description: >-
-  Quick setup of two nodes Beacon and ECDSA. Быстрая настройка двух нод Beacon и
+  Быстрая настройка двух нод Beacon и ECDSA. Quick setup of two nodes Beacon and
   ECDSA.
 ---
 
