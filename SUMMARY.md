@@ -21,5 +21,5 @@
 
 ## English Guide
 
-* [Obtaining a KEEP Grant](english-guide/obtaining-a-keep-grant.md)
+* [Installation guide](english-guide/obtaining-a-keep-grant.md)
 

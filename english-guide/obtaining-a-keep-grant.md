@@ -1,2 +1,2 @@
-# Obtaining a KEEP Grant
+# Installation guide
 
