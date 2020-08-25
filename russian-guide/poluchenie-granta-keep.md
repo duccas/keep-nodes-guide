@@ -26,7 +26,7 @@ You can manage your token grants at: https://dashboard.test.keep.network .
 You can find us on Discord at: https://discord.gg/jqxBU4m .
 ```
 
-Это сообщение говорит о том, что вы получили на адрес кошелька 300,000 монет KEEP.
+Это сообщение говорит о том, что вы получили на адрес кошелька 300,000 монет KEEP в виде Гранта.
 
 ### Получение тестовых ETH
 
