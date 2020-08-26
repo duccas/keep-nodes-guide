@@ -10,12 +10,15 @@ https://us-central1-keep-test-f3e0.cloudfunctions.net/keep-faucet-ropsten?accoun
 
 Полная ссылка будет выглядеть вот так:
 
+{% code title="\#ПРИМЕР" %}
 ```text
 https://us-central1-keep-test-f3e0.cloudfunctions.net/keep-faucet-ropsten?account=0x91F29E27b25be9eBb20B00Ceed046D48C1786c82
 ```
+{% endcode %}
 
 Нажимаем ENTER и получаем вот такое сообщение:
 
+{% code title="\#ПРИМЕР" %}
 ```text
 Created token grant with 300000000000000000000000 KEEP for account: 0x91F29E27b25be9eBb20B00Ceed046D48C1786c82
 
@@ -25,6 +28,7 @@ You can manage your token grants at: https://dashboard.test.keep.network .
 
 You can find us on Discord at: https://discord.gg/jqxBU4m .
 ```
+{% endcode %}
 
 Это сообщение говорит о том, что вы получили на адрес кошелька 300,000 монет KEEP в виде Гранта.
 

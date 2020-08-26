@@ -21,10 +21,17 @@ sudo docker logs keep-ecdsa -f --since 1m
 
    3. Вывод только подключенных пиров \(number of connected peers\):
 
+{% code title="\#ДЛЯ BEACON НОДЫ" %}
 ```text
 sudo docker logs -f keep-client --tail 1000 2>&1 | grep "number of connected peers:"
+```
+{% endcode %}
+
+{% code title="\#ДЛЯ ECDSA НОДЫ" %}
+```text
 sudo docker logs -f keep-ecdsa --tail 1000 2>&1 | grep "number of connected peers:"
 ```
+{% endcode %}
 
 ![](../.gitbook/assets/image%20%2821%29.png)
 

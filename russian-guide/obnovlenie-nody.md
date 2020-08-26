@@ -35,5 +35,3 @@ rm -R keep-nodes
 
 {% page-ref page="sozdanie-virtualnogo-servera/nastroika-beacon-i-ecdsa-nod.md" %}
 
-
-

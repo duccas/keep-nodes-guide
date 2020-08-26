@@ -6,6 +6,19 @@
 
 * [Technical Requirements](getting-srarted/technical-requirements.md)
 
+## English Guide
+
+* [Installation guide](english-guide/obtaining-a-keep-grant/README.md)
+  * [Creating ETH wallet](english-guide/obtaining-a-keep-grant/creating-eth-wallet.md)
+  * [Metamask installation](english-guide/obtaining-a-keep-grant/metamask-installation.md)
+  * [Obtaining the KEEP Grant and Test ETH](english-guide/obtaining-a-keep-grant/obtaining-the-keep-grant-and-test-eth.md)
+  * [Delegating KEEP](english-guide/obtaining-a-keep-grant/delegating-keep.md)
+  * [Create an INFURA account](english-guide/obtaining-a-keep-grant/create-an-infura-account.md)
+  * [Configuring and Running Beacon and ECDSA Nodes](english-guide/obtaining-a-keep-grant/configuring-and-running-beacon-and-ecdsa-nodes.md)
+* [Viewing logs and other commands](english-guide/viewing-logs-and-other-commands.md)
+* [Updating a node](english-guide/updating-a-node.md)
+* [Known errors](english-guide/known-errors.md)
+
 ## Russian Guide
 
 * [Руководство по установке](russian-guide/sozdanie-virtualnogo-servera/README.md)
@@ -18,8 +31,4 @@
 * [Просмотр логов и другие команды](russian-guide/prosmotr-logov-i-drugie-komandy.md)
 * [Обновление ноды](russian-guide/obnovlenie-nody.md)
 * [Известные ошибки](russian-guide/izvestnye-oshibki.md)
-
-## English Guide
-
-* [Installation guide](english-guide/obtaining-a-keep-grant.md)
 
