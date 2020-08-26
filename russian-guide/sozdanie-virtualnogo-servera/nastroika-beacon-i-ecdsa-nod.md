@@ -74,11 +74,13 @@ echo 'СОДЕРЖИМОЕ ФАЙЛА UTC--2020-08-24T16-27-57' >> $HOME/keep-no
 
 Выглядеть это должно вот так:
 
+{% code title="\#ПРИМЕР" %}
 ```text
 echo '0x208E233b930aacC7E17768F02106b6429B822133' >> $HOME/keep-nodes/data/eth-address.txt
 echo 'qwerty123' >> $HOME/keep-nodes/data/eth-address-pass.txt
 echo '{"version":3,"id":"d01c210a-1206-4754-9202-9f3g87472afe","address":"0x208E233b930aacC7E17768F02106b6429B822133","crypto":{"ciphertext":"85b53ab95e6fbea53f123123b5p234ujdce2122b08f6a73310f2d131e700","cipherparams":{"iv":"13d3efdead3523501ae8ede4328duwh4158"},"cipher":"aes-128-ctr","kdf":"scrypt","kdfparams":{"dklen":32,"salt":"ffad567d42eb5b3f1907e91023478fhs234r720234fs21a0a324cffc9e6c119137","n":131072,"r":8,"p":1},"mac":"c3b300aa4db1531add1c7c78d73d88f75a387485627g46539f1027999c66517"}}' >> $HOME/keep-nodes/data/keep_wallet.json
 ```
+{% endcode %}
 
 Записываем в файл .profile данные экспорта вашего Пароля и IP сервера путем ввода команд:
 
@@ -97,10 +99,12 @@ grep -rl INFURA_ECDSA_ID $HOME/keep-nodes/ecdsa/config* | xargs perl -p -i -e 's
 
 Выглядеть это должно вот так:
 
+{% code title="\#ПРИМЕР" %}
 ```text
 grep -rl INFURA_BEACON_ID $HOME/keep-nodes/beacon/config* | xargs perl -p -i -e 's/INFURA_BEACON_ID/6e6a4ed128a5f7s82bcc470710fb0/g'
 grep -rl INFURA_ECDSA_ID $HOME/keep-nodes/ecdsa/config* | xargs perl -p -i -e 's/INFURA_ECDSA_ID/a888cf7gy6e888b0d21ee96b4201e0/g'
 ```
+{% endcode %}
 
 Теперь сделаем экспорт пароля командой:
 
@@ -144,5 +148,14 @@ sudo docker run -d \
 --name keep-ecdsa \
 -p 3920:3919 \
 keepnetwork/keep-ecdsa-client:v1.2.0-rc --config /mnt/ecdsa/config/config.toml start
+```
+
+### 7. Остановка и удаление
+
+1. Остановка и удаление контейнера производится следующими командами:
+
+```text
+sudo docker stop keep-client && sudo docker rm keep-client
+sudo docker stop keep-ecdsa && sudo docker rm keep-ecdsa
 ```
 
