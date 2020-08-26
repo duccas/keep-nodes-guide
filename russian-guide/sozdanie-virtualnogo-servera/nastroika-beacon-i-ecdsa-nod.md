@@ -102,6 +102,14 @@ grep -rl INFURA_BEACON_ID $HOME/keep-nodes/beacon/config* | xargs perl -p -i -e 
 grep -rl INFURA_ECDSA_ID $HOME/keep-nodes/ecdsa/config* | xargs perl -p -i -e 's/INFURA_ECDSA_ID/a888cf7gy6e888b0d21ee96b4201e0/g'
 ```
 
+Теперь сделаем экспорт пароля командой:
+
+```text
+export ETH_PASSWORD=$(cat $HOME/keep-nodes/data/eth-address-pass.txt)
+```
+
+Все готово к запуску!
+
 ### 5. Запуск Beacon ноды
 
 Запуск Бекон ноды будем производить командой ниже:
