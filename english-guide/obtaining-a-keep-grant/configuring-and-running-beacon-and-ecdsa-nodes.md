@@ -59,13 +59,13 @@ git clone https://github.com/icohigh/keep-nodes.git
 
 1. In the commands below, replace "YOUR ETH ADDRESS" with the address of your ETH wallet. 
 2. "YOUR PASSWORD" for the password from the ETH wallet. 
-3. "CONTENTS OF FILE UTC--2020-08-24T16-27-57" to the contents of the file downloaded when creating the ETH wallet. 
+3. "CONTENT OF FILE UTC--2020-08-24T16-27-57" to the contents of the file downloaded when creating the ETH wallet. 
 4. Enter all these commands.
 
 ```text
 echo 'YOUR ETH ADDRESS' >> $HOME/keep-nodes/data/eth-address.txt
 echo 'YOUR PASSWORD' >> $HOME/keep-nodes/data/eth-address-pass.txt
-echo 'CONTENTS OF FILE UTC--2020-08-24T16-27-57' >> $HOME/keep-nodes/data/keep_wallet.json
+echo 'CONTENT OF FILE UTC--2020-08-24T16-27-57' >> $HOME/keep-nodes/data/keep_wallet.json
 ```
 
 It should look like this:
