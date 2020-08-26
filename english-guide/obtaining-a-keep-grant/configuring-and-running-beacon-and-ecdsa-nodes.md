@@ -4,7 +4,7 @@
 
 Launch the terminal of our server on the site where the server was created or through special programs described in the section:
 
-{% page-ref page="../../getting-srarted/technical-requirements.md" %}
+{% page-ref page="../../getting-started/technical-requirements.md" %}
 
 ### 2. Setting up Ubuntu
 

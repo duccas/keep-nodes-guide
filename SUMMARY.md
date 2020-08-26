@@ -2,9 +2,9 @@
 
 * [Summary](README.md)
 
-## Getting Srarted
+## Getting Started
 
-* [Technical Requirements](getting-srarted/technical-requirements.md)
+* [Technical Requirements](getting-started/technical-requirements.md)
 
 ## English Guide
 
