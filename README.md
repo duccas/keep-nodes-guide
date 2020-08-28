@@ -22,6 +22,14 @@ The node installation was tested 5 times on various Ubuntu versions and all 5 ti
 
 Carefully go through all the installation points and there should be no problems!
 
+### Indonesian by Pang Pang\#5155
+
+Panduan ini akan membantu Anda menginstal dua node \(Beacon dan ECDSA\) di server yang sama tanpa menggunakan editor teks. Hanya baris perintah terminal. Ini akan menghilangkan banyak masalah yang muncul saat mengedit file konfigurasi.
+
+Instalasi node diuji 5 kali pada berbagai versi Ubuntu dan 5 kali semuanya berhasil.
+
+Hati-hati melalui semua titik instalasi dan seharusnya tidak ada masalah!
+
 ### Contacts
 
 If you have any problems with the installation, you can contact me at the following contacts:
