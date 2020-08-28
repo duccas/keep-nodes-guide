@@ -6,19 +6,6 @@
 
 * [Technical Requirements](getting-started/technical-requirements.md)
 
-## English
-
-* [Installation guide](english/obtaining-a-keep-grant/README.md)
-  * [Creating ETH wallet](english/obtaining-a-keep-grant/creating-eth-wallet.md)
-  * [Metamask installation](english/obtaining-a-keep-grant/metamask-installation.md)
-  * [Obtaining the KEEP Grant and Test ETH](english/obtaining-a-keep-grant/obtaining-the-keep-grant-and-test-eth.md)
-  * [Delegating KEEP](english/obtaining-a-keep-grant/delegating-keep.md)
-  * [Create an INFURA account](english/obtaining-a-keep-grant/create-an-infura-account.md)
-  * [Configuring and Running Beacon and ECDSA Nodes](english/obtaining-a-keep-grant/configuring-and-running-beacon-and-ecdsa-nodes.md)
-* [Viewing logs and other commands](english/viewing-logs-and-other-commands.md)
-* [Updating a node](english/updating-a-node.md)
-* [Known errors](english/known-errors.md)
-
 ## Russian
 
 * [Руководство по установке](russian/sozdanie-virtualnogo-servera/README.md)
@@ -31,6 +18,19 @@
 * [Просмотр логов и другие команды](russian/prosmotr-logov-i-drugie-komandy.md)
 * [Обновление ноды](russian/obnovlenie-nody.md)
 * [Известные ошибки](russian/izvestnye-oshibki.md)
+
+## English
+
+* [Installation guide](english/obtaining-a-keep-grant/README.md)
+  * [Creating ETH wallet](english/obtaining-a-keep-grant/creating-eth-wallet.md)
+  * [Metamask installation](english/obtaining-a-keep-grant/metamask-installation.md)
+  * [Obtaining the KEEP Grant and Test ETH](english/obtaining-a-keep-grant/obtaining-the-keep-grant-and-test-eth.md)
+  * [Delegating KEEP](english/obtaining-a-keep-grant/delegating-keep.md)
+  * [Create an INFURA account](english/obtaining-a-keep-grant/create-an-infura-account.md)
+  * [Configuring and Running Beacon and ECDSA Nodes](english/obtaining-a-keep-grant/configuring-and-running-beacon-and-ecdsa-nodes.md)
+* [Viewing logs and other commands](english/viewing-logs-and-other-commands.md)
+* [Updating a node](english/updating-a-node.md)
+* [Known errors](english/known-errors.md)
 
 ## INDONESIAN
 
