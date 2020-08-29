@@ -44,3 +44,10 @@ sudo docker stop keep-client && sudo docker rm keep-client
 sudo docker stop keep-ecdsa && sudo docker rm keep-ecdsa
 ```
 
+   2. Очистка содержимого файла:
+
+```text
+echo -n > $HOME/keep-nodes/data/eth-address.txt
+echo -n > $HOME/keep-nodes/data/keep_wallet.json
+```
+
