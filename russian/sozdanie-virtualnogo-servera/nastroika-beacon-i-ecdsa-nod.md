@@ -159,3 +159,7 @@ sudo docker stop keep-client && sudo docker rm keep-client
 sudo docker stop keep-ecdsa && sudo docker rm keep-ecdsa
 ```
 
+### 8. ВАЖНО!
+
+{% page-ref page="../obnovlenie-nody.md" %}
+
