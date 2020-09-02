@@ -1,20 +1,20 @@
-# Konfigurasi dan menjalankan Random Beacon dan ECDSA Nodes
+# Configuring and Running Beacon and ECDSA Nodes
 
-### 1. **Persiapan**
+### 1. Preparation
 
-Jalankan terminal untuk server kita pada alamat dimana kita membuat server atau program special yang dijelaskan pada sesi:
+Launch the terminal of our server on the site where the server was created or through special programs described in the section:
 
 {% page-ref page="../../getting-started/technical-requirements.md" %}
 
-### 2. **Konfigurasi Ubuntu**
+### 2. Setting up Ubuntu
 
-Update packages pada server ke versi terakhir:
+Update packages on the server to the latest versions:
 
 ```text
 sudo apt update
 ```
 
-Install the git package jika tidak terpasang pada server:
+Install the git package if it is not installed on the server:
 
 ```text
 sudo apt install git
@@ -33,34 +33,34 @@ sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
-### 3. **Konfigurasi Firewall**
+### 3. Firewall configuration
 
-Buka ports 22, 3919 and 3920 dan jalankan Firewall:
+Open ports 22, 3919 and 3920 and activate the Firewall:
 
 ```text
 sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw enable
 ```
 
-Setelah menjalankan perintah, tekan "y" dan Enter untuk konfirmasi pengaktifan firewall.
+After entering the command, press the English "y" and Enter to confirm the activation of the firewall.
 
-Cek status ports terbuka dengan perintah:
+Check the status of open ports with the command:
 
 ```text
 sudo ufw status
 ```
 
-### 4. **Konfigurasi nodes**
+### 4. Setting up nodes
 
-Pertama, unduh repository pada github server dengan semua folders dan configs untuk menjalankan 2 nodes dengan menggunakan perintah:
+First, download the repository to the github server with all the folders and configs for running two nodes with the command:
 
 ```text
 git clone https://github.com/icohigh/keep-nodes.git
 ```
 
-1. Pada perintah dibawah, ganti "YOUR ETH ADDRESS" dengan alamat dompet ETH anda.
-2. "YOUR PASSWORD" untuk password dari dompet ETH anda.
-3. "CONTENT OF FILE UTC--2020-08-24T16-27-57" untuk contents dokumen terunduh pada saat membuat dompet ETH.
-4. Enter semua perintah.
+1. In the commands below, replace "YOUR ETH ADDRESS" with the address of your ETH wallet. 
+2. "YOUR PASSWORD" for the password from the ETH wallet. 
+3. "CONTENT OF FILE UTC--2020-08-24T16-27-57" to the contents of the file downloaded when creating the ETH wallet. 
+4. Enter all these commands.
 
 ```text
 echo 'YOUR ETH ADDRESS' >> $HOME/keep-nodes/data/eth-address.txt
@@ -68,7 +68,7 @@ echo 'YOUR PASSWORD' >> $HOME/keep-nodes/data/eth-address-pass.txt
 echo 'CONTENT OF FILE UTC--2020-08-24T16-27-57' >> $HOME/keep-nodes/data/keep_wallet.json
 ```
 
-Seharusnya terlihat seperti ini:
+It should look like this:
 
 {% code title="\#EXAMPLE" %}
 ```text
@@ -78,21 +78,22 @@ echo '{"version":3,"id":"d01c210a-1206-4754-9202-9f3g87472afe","address":"0x208E
 ```
 {% endcode %}
 
-   5. Tulis export data of your Password and server IP ke dokumen .profile dengan menjalankan perintah:
+   5. Write the export data of your Password and server IP to the .profile file by entering the commands:
 
 ```text
 echo 'export ETH_PASSWORD=$(cat $HOME/keep-nodes/data/eth-address-pass.txt)' >> $HOME/.profile
 echo 'export SERVER_IP=$(curl ifconfig.co)' >> $HOME/.profile
 ```
 
-   6. Sekarang kita butuh untuk menambahkan dokumen konfigurasi INFURA ID dari akun yang anda buat sebelumnya[ https://infura.io/](https://infura.io/). Sisipkan pada "YOUR\_INFURA\_ID\_BEACON\_NODE" dan "YOUR\_INFURA\_ID\_ECDSA\_NODE", masing-masing, the ID of the Beacon and ECDSA nodes.
+   6. Now we need to add in the config file INFURA ID from your account [https://infura.io/](https://infura.io/) created earlier.   
+Insert instead of "YOUR\_INFURA\_ID\_BEACON\_NODE" and "YOUR\_INFURA\_ID\_ECDSA\_NODE", respectively, the ID of the Beacon and ECDSA nodes.
 
 ```text
 grep -rl INFURA_BEACON_ID $HOME/keep-nodes/beacon/config* | xargs perl -p -i -e 's/INFURA_BEACON_ID/YOUR_INFURA_ID_BEACON_NODE/g'
 grep -rl INFURA_ECDSA_ID $HOME/keep-nodes/ecdsa/config* | xargs perl -p -i -e 's/INFURA_ECDSA_ID/YOUR_INFURA_ID_ECDSA_NODE/g'
 ```
 
-Seharusnya terlihat seperti ini:
+It should look like this:
 
 {% code title="\#EXAMPLE" %}
 ```text
@@ -101,17 +102,17 @@ grep -rl INFURA_ECDSA_ID $HOME/keep-nodes/ecdsa/config* | xargs perl -p -i -e 's
 ```
 {% endcode %}
 
-    7. Sekarang export the password dengan perintah:
+    7. Now let's export the password with the command:
 
 ```text
 export ETH_PASSWORD=$(cat $HOME/keep-nodes/data/eth-address-pass.txt)
 ```
 
-   8. Semua sudah siap untuk lanjut!
+   8. Everything is ready to go!
 
-### 5. **Menjalankan Beacon node**
+### 5. Launching a Beacon node
 
-Jalankan Beacon node dengan perintah dibawah:
+Launch the Bacon node with the command below:
 
 ```text
 sudo docker run -d \
@@ -127,9 +128,9 @@ sudo docker run -d \
 keepnetwork/keep-client:v1.3.0-rc.3 --config /mnt/beacon/config/config.toml start
 ```
 
-### 6. **Menjalankan ECDSA node**
+### 6. Launching an ECDSA node
 
-Jalankan the ECDSA node dengan perintah berikut:
+Launch the ECDSA node with the following command:
 
 ```text
 sudo docker run -d \
@@ -145,16 +146,16 @@ sudo docker run -d \
 keepnetwork/keep-ecdsa-client:v1.2.0-rc.4 --config /mnt/ecdsa/config/config.toml start
 ```
 
-### 7. **Stop dan delete**
+### 7. Stop and delete
 
-The container dapat diberhentikan dan dihapus dengan menggunakan perintah:
+The container can be stopped and removed using the following commands:
 
 ```text
 sudo docker stop keep-client && sudo docker rm keep-client
 sudo docker stop keep-ecdsa && sudo docker rm keep-ecdsa
 ```
 
-### 8. Penting!
+### 8. Important!
 
-{% page-ref page="../memperbarui-node.md" %}
+{% page-ref page="../updating-a-node.md" %}
 

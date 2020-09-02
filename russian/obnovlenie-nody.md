@@ -21,7 +21,7 @@ cd keep-nodes && git pull && cd
 
 Далее переходим в раздел Настройка и Запуск Beacon и ECDSA нод и выполняем пункты 5 и 6.
 
-{% page-ref page="sozdanie-virtualnogo-servera/nastroika-beacon-i-ecdsa-nod.md" %}
+{% page-ref page="rukovodstvo-po-ustanovke/nastroika-beacon-i-ecdsa-nod.md" %}
 
 ### Проблемы с обновлением
 
@@ -33,5 +33,5 @@ rm -R keep-nodes
 
 И далее переходим в раздел Настройка и Запуск Beacon и ECDSA нод и выполняем заново начиная с пункта 4.
 
-{% page-ref page="sozdanie-virtualnogo-servera/nastroika-beacon-i-ecdsa-nod.md" %}
+{% page-ref page="rukovodstvo-po-ustanovke/nastroika-beacon-i-ecdsa-nod.md" %}
 

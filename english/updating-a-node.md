@@ -21,7 +21,7 @@ Everything, after that, your nodes are completely ready for launch.
 
 Next, go to the section Configuring and Running Beacon and ECDSA Nodes and perform steps 5 and 6.
 
-{% page-ref page="obtaining-a-keep-grant/configuring-and-running-beacon-and-ecdsa-nodes.md" %}
+{% page-ref page="installation-guide/configuring-and-running-beacon-and-ecdsa-nodes.md" %}
 
 ### Upgrade issues
 
@@ -33,5 +33,5 @@ rm -R keep-nodes
 
 And then go to the section Configuring and Launching Beacon and ECDSA nodes and rerun starting from point 4.
 
-{% page-ref page="obtaining-a-keep-grant/configuring-and-running-beacon-and-ecdsa-nodes.md" %}
+{% page-ref page="installation-guide/configuring-and-running-beacon-and-ecdsa-nodes.md" %}
 
