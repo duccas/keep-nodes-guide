@@ -16,7 +16,7 @@ docker ps -a
 
 ```text
 sudo docker logs keep-client -f --since 1m
-sudo docker logs keep-ecdsa -f --since 1m
+sudo docker logs keep-client -f --since 1m
 ```
 
    3. Вывод только подключенных пиров \(number of connected peers\):
