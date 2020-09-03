@@ -38,9 +38,9 @@ Now you need to authorize contracts in the dashboard.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
-   4. In the input field, write how much ETH you need to add. Minimum 0.5 ETH and press the "ADD ETH" button. Next, we confirm the transaction.
+   4. In the input field, write how much ETH you need to add. Minimum 20 ETH and press the "ADD ETH" button. Next, we confirm the transaction.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
    5. Done.
 

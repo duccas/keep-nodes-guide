@@ -38,9 +38,9 @@ Sekarang anda harus mengotorisasi kontrak pada dashboard.
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
-   4. Pada kolom isian, tulis berapa ETH yang anda butuh untuk ditambahkan. Minimal 0.5 ETH dan klik tombol "ADD ETH". Kemudian, kita konfirmasi transaksaksi.
+   4. Pada kolom isian, tulis berapa ETH yang anda butuh untuk ditambahkan. Minimal 20 ETH dan klik tombol "ADD ETH". Kemudian, kita konfirmasi transaksaksi.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
    5. Selesai.
 
