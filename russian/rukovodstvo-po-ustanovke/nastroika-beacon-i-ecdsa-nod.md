@@ -92,6 +92,9 @@ echo 'export SERVER_IP=$(curl ifconfig.co)' >> $HOME/.profile
 
 ```text
 grep -rl INFURA_BEACON_ID $HOME/keep-nodes/beacon/config* | xargs perl -p -i -e 's/INFURA_BEACON_ID/ВАШ_ИНФУРА_ID_БЕКОН_НОДЫ/g'
+```
+
+```text
 grep -rl INFURA_ECDSA_ID $HOME/keep-nodes/ecdsa/config* | xargs perl -p -i -e 's/INFURA_ECDSA_ID/ВАШ_ИНФУРА_ID_ECDSA_НОДЫ/g'
 ```
 
