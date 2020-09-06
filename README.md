@@ -21,7 +21,7 @@ keepnetwork/keep-client:v1.3.0-rc.3
 ****keepnetwork/keep-ecdsa-client:v1.2.0-rc.4
 {% endhint %}
 
-### Russian
+## Russian
 
 Данное руководство поможет установить две ноды \(Beacon и ECDSA\) на одном сервере без использования текстовых редакторов. Только командная строка терминала. Это позволить исключить многие проблемы, возникающие с редактированием конфигурационных файлов.
 
@@ -29,7 +29,7 @@ keepnetwork/keep-client:v1.3.0-rc.3
 
 Внимательно пройдитесь по всем пунктам установки и проблем быть не должно! 
 
-### English
+## English
 
 This tutorial will help you install two nodes \(Beacon and ECDSA\) on the same server without using text editors. Terminal command line only. This will eliminate many of the problems that arise when editing configuration files.
 
@@ -37,7 +37,7 @@ The node installation was tested 5 times on various Ubuntu versions and all 5 ti
 
 Carefully go through all the installation points and there should be no problems!
 
-### Indonesian _by Pang Pang\#5155_
+## Indonesian _by Pang Pang\#5155_
 
 Panduan ini akan membantu Anda menginstal dua node \(Beacon dan ECDSA\) di server yang sama tanpa menggunakan editor teks. Hanya baris perintah terminal. Ini akan menghilangkan banyak masalah yang muncul saat mengedit file konfigurasi.
 
@@ -45,7 +45,7 @@ Instalasi node diuji 5 kali pada berbagai versi Ubuntu dan 5 kali semuanya berha
 
 Hati-hati melalui semua titik instalasi dan seharusnya tidak ada masalah!
 
-### Contacts
+## Contacts
 
 If you have any problems with the installation, you can contact me at the following contacts:
 
@@ -55,7 +55,7 @@ Twitter - [https://twitter.com/kinsnifa](https://twitter.com/kinsnifa)
 
 Telegram - [https://t.me/ducca](https://t.me/ducca)
 
-### Our Resourses
+## Our Resourses
 
 Website - [https://icohigh.net/](https://icohigh.net/)
 
