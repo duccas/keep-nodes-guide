@@ -42,10 +42,8 @@ sudo systemctl enable docker
 Открываем порты 22, 3919 и 3920 и активируем Firewall:
 
 ```text
-sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw enable
+sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable
 ```
-
-После ввода команды нажимаем английскую "y" и Enter для подтверждения активирования фаервола.
 
 Проверяем статус открытых портов командой:
 

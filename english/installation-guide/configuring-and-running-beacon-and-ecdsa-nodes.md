@@ -38,10 +38,8 @@ sudo systemctl enable docker
 Open ports 22, 3919 and 3920 and activate the Firewall:
 
 ```text
-sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && sudo ufw enable
+sudo ufw allow 22 && sudo ufw allow 3919 && sudo ufw allow 3920 && yes | sudo ufw enable
 ```
-
-After entering the command, press the English "y" and Enter to confirm the activation of the firewall.
 
 Check the status of open ports with the command:
 
