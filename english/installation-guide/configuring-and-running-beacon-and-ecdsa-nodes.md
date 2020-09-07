@@ -17,7 +17,7 @@ sudo apt update
 Install the git package if it is not installed on the server:
 
 ```text
-sudo apt install git
+yes | sudo apt install git
 ```
 
 Install Docker:
@@ -114,7 +114,7 @@ Launch the Bacon node with the command below:
 
 ```text
 sudo docker run -d \
---entrypoint keep-client \
+--entrypoint /usr/local/bin/keep-client \
 --restart always \
 --volume $HOME/keep-nodes/data:/mnt/data \
 --volume $HOME/keep-nodes/beacon/config:/mnt/beacon/config \
@@ -132,7 +132,7 @@ Launch the ECDSA node with the following command:
 
 ```text
 sudo docker run -d \
---entrypoint keep-ecdsa \
+--entrypoint /usr/local/bin/keep-ecdsa \
 --restart always \
 --volume $HOME/keep-nodes/data:/mnt/data \
 --volume $HOME/keep-nodes/ecdsa/config:/mnt/ecdsa/config \

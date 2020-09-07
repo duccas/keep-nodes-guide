@@ -21,7 +21,7 @@ sudo apt update
 Устанавливаем пакет git, если он не установлен на сервере:
 
 ```text
-sudo apt install git
+yes | sudo apt install git
 ```
 
 Установим Докер:
@@ -121,7 +121,7 @@ export ETH_PASSWORD=$(cat $HOME/keep-nodes/data/eth-address-pass.txt)
 
 ```text
 sudo docker run -d \
---entrypoint keep-client \
+--entrypoint /usr/local/bin/keep-client \
 --restart always \
 --volume $HOME/keep-nodes/data:/mnt/data \
 --volume $HOME/keep-nodes/beacon/config:/mnt/beacon/config \
@@ -139,7 +139,7 @@ keepnetwork/keep-client:v1.3.0-rc.3 --config /mnt/beacon/config/config.toml star
 
 ```text
 sudo docker run -d \
---entrypoint keep-ecdsa \
+--entrypoint /usr/local/bin/keep-ecdsa \
 --restart always \
 --volume $HOME/keep-nodes/data:/mnt/data \
 --volume $HOME/keep-nodes/ecdsa/config:/mnt/ecdsa/config \

@@ -113,7 +113,7 @@ Jalankan Beacon node dengan perintah dibawah:
 
 ```text
 sudo docker run -d \
---entrypoint keep-client \
+--entrypoint /usr/local/bin/keep-client \
 --restart always \
 --volume $HOME/keep-nodes/data:/mnt/data \
 --volume $HOME/keep-nodes/beacon/config:/mnt/beacon/config \
@@ -131,7 +131,7 @@ Jalankan the ECDSA node dengan perintah berikut:
 
 ```text
 sudo docker run -d \
---entrypoint keep-ecdsa \
+--entrypoint /usr/local/bin/keep-ecdsa \
 --restart always \
 --volume $HOME/keep-nodes/data:/mnt/data \
 --volume $HOME/keep-nodes/ecdsa/config:/mnt/ecdsa/config \
