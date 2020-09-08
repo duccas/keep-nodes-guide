@@ -130,7 +130,7 @@ sudo docker run -d \
 --env LOG_LEVEL=debug \
 --name keep-client \
 -p 3919:3919 \
-keepnetwork/keep-client:v1.3.0-rc.3 --config /mnt/beacon/config/config.toml start
+keepnetwork/keep-client:v1.3.0-rc.4 --config /mnt/beacon/config/config.toml start
 ```
 
 ### 6. Запуск ECDSA ноды
