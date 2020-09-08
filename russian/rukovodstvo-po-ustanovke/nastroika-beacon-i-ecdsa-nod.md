@@ -148,7 +148,7 @@ sudo docker run -d \
 --env LOG_LEVEL=debug \
 --name keep-ecdsa \
 -p 3920:3919 \
-keepnetwork/keep-ecdsa-client:v1.2.0-rc.4 --config /mnt/ecdsa/config/config.toml start
+keepnetwork/keep-ecdsa-client:v1.2.0-rc.5 --config /mnt/ecdsa/config/config.toml start
 ```
 
 ### 7. Остановка и удаление

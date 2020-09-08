@@ -51,3 +51,11 @@ echo -n > $HOME/keep-nodes/data/eth-address.txt
 echo -n > $HOME/keep-nodes/data/keep_wallet.json
 ```
 
+### Сохранить логи в файл
+
+Сохранение логов контейнера в файл за последние 30 минут:
+
+```text
+sudo docker logs keep-ecdsa --since 30m >& ecdsa.log
+```
+
