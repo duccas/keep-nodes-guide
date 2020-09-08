@@ -44,3 +44,11 @@ sudo docker stop keep-client && sudo docker rm keep-client
 sudo docker stop keep-ecdsa && sudo docker rm keep-ecdsa
 ```
 
+### Simpan log ke file 
+
+Menyimpan log kontainer ke file selama 30 menit terakhir:
+
+```text
+sudo docker logs keep-ecdsa --since 30m >& ecdsa.log
+```
+

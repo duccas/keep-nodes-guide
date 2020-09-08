@@ -44,3 +44,11 @@ sudo docker stop keep-client && sudo docker rm keep-client
 sudo docker stop keep-ecdsa && sudo docker rm keep-ecdsa
 ```
 
+### Save logs to file 
+
+Saving container logs to a file for the last 30 minutes:
+
+```text
+sudo docker logs keep-ecdsa --since 30m >& ecdsa.log
+```
+
