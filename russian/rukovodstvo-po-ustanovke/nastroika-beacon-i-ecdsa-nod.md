@@ -151,7 +151,24 @@ sudo docker run -d \
 keepnetwork/keep-ecdsa-client:v1.2.0-rc.5 --config /mnt/ecdsa/config/config.toml start
 ```
 
-### 7. Остановка и удаление
+### 7. Просмотр логов
+
+1. Посмотреть запущенные контейнеры
+
+```text
+docker ps -a
+```
+
+![](../../.gitbook/assets/image%20%2818%29.png)
+
+   2. Полные логи Beacon и ECDSA нод:
+
+```text
+sudo docker logs keep-client -f --since 1m
+sudo docker logs keep-ecdsa -f --since 1m
+```
+
+### 8. Остановка и удаление
 
 1. Остановка и удаление контейнера производится следующими командами:
 
