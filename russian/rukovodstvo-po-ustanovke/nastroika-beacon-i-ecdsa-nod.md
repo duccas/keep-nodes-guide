@@ -165,6 +165,9 @@ docker ps -a
 
 ```text
 sudo docker logs keep-client -f --since 1m
+```
+
+```text
 sudo docker logs keep-ecdsa -f --since 1m
 ```
 
