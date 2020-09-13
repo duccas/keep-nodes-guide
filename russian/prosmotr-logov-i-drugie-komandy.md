@@ -7,7 +7,7 @@
 1. Посмотреть запущенные контейнеры
 
 ```text
-docker ps -a
+sudo docker ps -a
 ```
 
 ![](../.gitbook/assets/image%20%2818%29.png)
