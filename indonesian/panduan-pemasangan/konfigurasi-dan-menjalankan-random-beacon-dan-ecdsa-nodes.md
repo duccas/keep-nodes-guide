@@ -11,7 +11,7 @@ Jalankan terminal untuk server kita pada alamat dimana kita membuat server atau 
 Update packages pada server ke versi terakhir:
 
 ```text
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 ```
 
 Install the git package jika tidak terpasang pada server:

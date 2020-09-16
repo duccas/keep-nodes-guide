@@ -11,7 +11,7 @@ Launch the terminal of our server on the site where the server was created or th
 Update packages on the server to the latest versions:
 
 ```text
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 ```
 
 Install the git package if it is not installed on the server:
