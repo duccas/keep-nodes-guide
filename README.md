@@ -51,7 +51,7 @@ If you have any problems with the installation, you can contact me at the follow
 
 Discord - Ducca\#5707
 
-Twitter - [https://twitter.com/kinsnifa](https://twitter.com/kinsnifa)
+Twitter - [https://twitter.com/DuccaHVU](https://twitter.com/DuccaHVU)
 
 Telegram - [https://t.me/ducca](https://t.me/ducca)
 
